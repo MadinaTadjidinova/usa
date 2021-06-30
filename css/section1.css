@@ -51,7 +51,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-margin-top: 60px;
+  margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
   padding-left: 19px;
@@ -81,23 +81,19 @@ margin-top: 60px;
   padding-top: 40px;
 }
 .age p {
-    margin: -5px;
-    padding-left: 10px;
-    font-weight: 500;
+  margin: -5px;
+  padding-left: 10px;
+  font-weight: 500;
 }
 .visa h1 {
   color: #fcc63d;
   font-size: 40px;
   margin-bottom: -20px;
-  
-  
 }
 .visa p {
-    font-size: 22px;
-    margin-bottom: 1px;
-    
-    
-  }
+  font-size: 22px;
+  margin-bottom: 1px;
+}
 .prog h1 {
   color: #fcc63d;
   font-size: 40px;
@@ -130,10 +126,10 @@ margin-top: 60px;
   height: 130px;
 }
 .jasmin {
-    position: absolute;
-    ;
-    z-index: 1;
-    top: 900px;
+  position: absolute;
+  z-index: 1;
+  top: 1090px;
+  left: 512px;
   text-align: center;
   font-size: 40px;
   color: white;
@@ -143,7 +139,7 @@ span {
 }
 @media (max-width: 750px) {
   section {
-    background-color: #3280b0;
+
     height: auto;
     width: 100%;
     margin: 0 px;
@@ -190,10 +186,7 @@ span {
 .image-1 {
   display: flex;
   justify-content: flex-end;
-} 
-
-
-
+}
 
 body {
   font-family: Montserrat !important;
@@ -203,7 +196,7 @@ body {
   border-left: 3px solid #016096;
   margin: 10px;
   padding: 10px;
-color: black;
+  color: black;
   height: 155px;
   width: 400px;
   left: 811px;
@@ -214,7 +207,7 @@ color: black;
   font-style: Style normal;
   font-size: 20px;
 }
-.text-1 p{
+.text-1 p {
   color: black;
 }
 
@@ -222,6 +215,7 @@ color: black;
   display: flex;
   padding-left: 50px;
   padding-right: 50px;
+  margin-top: 50px;
 }
 .section-company-about {
   display: flex;
@@ -251,7 +245,7 @@ tbody {
   margin: 10px;
   justify-content: flex-end;
   padding: 10px;
-  
+
   display: flex;
 }
 .text-2 {
@@ -285,7 +279,6 @@ tbody {
   width: 625px;
 }
 .image1 {
-  
   width: 625px;
   padding-right: 10px;
 }
@@ -336,7 +329,7 @@ h1 {
 }
 .card:nth-child(1) {
   background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
-  }
+}
 .card:nth-child(3) {
   background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
   height: 183px;
@@ -345,18 +338,17 @@ h1 {
   width: 79px;
   height: 88px;
   margin: -10px;
-} 
-.pornhub{
+}
+.pornhub {
   background-color: #016096;
 }
-.progammer-div{
-height: 267px;
-position: relative;
-
+.progammer-div {
+  height: 267px;
+  position: relative;
 }
 .card-body-2 {
   position: absolute;
-  bottom: 10px ;
+  bottom: 10px;
 }
 .card-img-top-1 {
   width: 79px;
@@ -364,91 +356,31 @@ position: relative;
   position: absolute;
   left: 280px;
   top: 100px;
-} 
-.parag{
+}
+.parag {
   width: 89%;
 }
-.text-2 p{
+.text-2 p {
   color: black;
-}s
-.card-img-top-2{
+}
+s .card-img-top-2 {
   position: absolute;
   bottom: 100px;
   left: 250px;
 }
-  
-@media (max-width: 750px){
-.pornhub{
-  display: flex;
-  flex-direction: column;
-}
-.card-title {
-  font-size: 18px;
-  color: white  ;
-}
-.company{
-  font-size:35px;
-  color: white  ;
-}
-.main-text {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  justify-content: flex-end;
-  padding: 10px;
-  
-  display: flex;
-}
-.image1 {
-  margin-left: 40px;
-  width: 265px;
-  padding-right: 10px;
-}
-.text-2 {
-  font-family: Montserrat;
-  color: black;
-  font-size: 18px;
-  line-height: 32px;
-  font-weight: 600;
-  width: 344px;
-  padding-left: 0px;
-  margin-left: 0px;
-  text-align: start;
-}
-.text-1 {
-  font-family: Montserrat;
-  
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 600;
-  width: 266px;
-}
-.section-company{
-  display: flex;
-  flex-direction: column;
-  padding-left: 0px;
-}
-.parent{
-  height: 0px;
-}
-.text-2 p{
-  color: black;
-}
-}
 
-
-@media (max-width: 950px){
-  .pornhub{
+@media (max-width: 750px) {
+  .pornhub {
     display: flex;
     flex-direction: column;
   }
   .card-title {
     font-size: 18px;
-    color: white  ;
+    color: white;
   }
-  .company{
-    font-size:35px;
-    color: white  ;
+  .company {
+    font-size: 35px;
+    color: white;
   }
   .main-text {
     display: flex;
@@ -456,14 +388,73 @@ position: relative;
     margin: 10px;
     justify-content: flex-end;
     padding: 10px;
-    
+
+    display: flex;
+  }
+  .image1 {
+    margin-left: 40px;
+    width: 265px;
+    padding-right: 10px;
+  }
+  .text-2 {
+    font-family: Montserrat;
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 344px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: start;
+  }
+  .text-1 {
+    font-family: Montserrat;
+
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 266px;
+  }
+  .section-company {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .parent {
+    height: 0px;
+  }
+  .text-2 p {
+    color: black;
+  }
+}
+
+@media (max-width: 950px) {
+  .pornhub {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 18px;
+    color: white;
+  }
+  .company {
+    font-size: 35px;
+    color: white;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+
     display: flex;
   }
   .image1 {
     margin-left: 40px;
     width: 290px;
     padding-right: 10px;
-    transform: translateY(995px);
+    transform: translateY(55px);
   }
   .text-2 {
     font-family: Montserrat;
@@ -478,55 +469,24 @@ position: relative;
   }
   .text-1 {
     font-family: Montserrat;
-    
+
     font-size: 22px;
     line-height: 32px;
     font-weight: 600;
     width: 290px;
   }
-  .section-company{
+  .section-company {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
   }
-  .parent{
+  .parent {
     height: 0px;
   }
-  .text-2 p{
+  .text-2 p {
     color: black;
   }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 body {
@@ -534,7 +494,7 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 .section-company-jasmine {
-  background-color: #016096;
+  
   width: 90%;
   margin: auto;
   /* height: 380px; */
@@ -583,7 +543,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-margin-top: 60px;
+  margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
   padding-left: 19px;
@@ -613,24 +573,19 @@ margin-top: 60px;
   padding-top: 40px;
 }
 .age p {
-    margin: -5px;
-    padding-left: 10px;
-    font-weight: 500;
+  margin: -5px;
+  padding-left: 10px;
+  font-weight: 500;
 }
 .visa h1 {
   color: #fcc63d;
   font-size: 40px;
   margin-bottom: -20px;
-  transform: translateY(-100px);
-  
-  
 }
 .visa p {
-    font-size: 22px;
-    margin-bottom: 1px;
-    transform: translateY(-80px);
-    
-  }
+  font-size: 22px;
+  margin-bottom: 1px;
+}
 .prog h1 {
   color: #fcc63d;
   font-size: 40px;
@@ -645,8 +600,8 @@ margin-top: 60px;
 .image-1 {
   width: 90px;
   align-items: flex-end;
-  margin-left: 200px;
-  transform: translateY(05px);
+  margin-left: 190px;
+  transform: translateY(80px);
 }
 .image-2 {
   width: 100px;
@@ -667,7 +622,6 @@ span {
   margin: 5.9px;
 }
 
-
 @media (max-width: 1200px) {
   .main2 {
     display: flex;
@@ -675,70 +629,62 @@ span {
   }
 
   .visa h1 {
-    
     transform: translateY(1px);
-    
   }
 
   .visa p {
-    
     transform: translateY(1px);
+  }
+
+  @media (max-width: 750px) {
+    .section-company-jasmine {
     
+      height: auto;
+      width: 100%;
+      margin: 0 px;
+    }
+    .main2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .visa {
+      width: 328px;
+      background-color: blueviolet;
+      margin: 10px;
+      height: 155px;
+    }
+    .prog {
+      width: 328px;
+      background-color: blueviolet;
+      margin: 10px;
+      height: 183px;
+      font-size: 16px;
+    }
+    .prog h1 {
+      margin: 0;
+    }
+    .age {
+      width: 328px;
+      background-color: blueviolet;
+      margin: 10px;
+      height: 183px;
+      padding-left: 20px;
+      color: white;
+    }
+    .visa h1,
+    .prog h1,
+    .age h1 {
+      font-size: 40px;
+      font-weight: 800;
+    }
   }
-
-
-
-
-
-@media (max-width: 750px) {
-  .section-company-jasmine {
-    background-color: #3280b0;
-    height: auto;
-    width: 100%;
-    margin: 0 px;
+  .prog span {
+    display: block;
   }
-  .main2 {
+  .visa,
+  .image-1 {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    transform: translateY(0px);
   }
-  .visa {
-    width: 328px;
-    background-color: blueviolet;
-    margin: 10px;
-    height: 155px;
-  }
-  .prog {
-    width: 328px;
-    background-color: blueviolet;
-    margin: 10px;
-    height: 183px;
-    font-size: 16px;
-  }
-  .prog h1 {
-    margin: 0;
-  }
-  .age {
-    width: 328px;
-    background-color: blueviolet;
-    margin: 10px;
-    height: 183px;
-    padding-left: 20px;
-    color: white;
-  }
-  .visa h1,
-  .prog h1,
-  .age h1 {
-    font-size: 40px;
-    font-weight: 800;
-  }
-}
-.prog span {
-  display: block;
-}
-.visa,
-.image-1 {
-  display: flex;
-  justify-content: flex-end;
-  transform: translateY(75px)
-}
 }

@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    color: #fff;
-    margin: 0;
-}
 .contact{
-    
+    position: relative;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,18 +14,16 @@ body{
     flex-direction: column;
     background-size:cover;
     background: url(../img/newbg.png) no-repeat;
-    box-shadow: 0 0 0 500px rgb(0 0 0 / 52%) inset;background-repeat: no-repeat;
+    box-shadow: 0 0 0 500px rgb(0 0 0 / 52%) inset;
 }
 .content{
     min-width: 815px;
     text-align: center;
 }
-.kamilla{
-    margin-top: 50px;
+h3{
     font-size: 48px;
     font-weight: 700;
     color:#34A8EA;
-    text-align: center;
 }
 p.class{
     font-size: 29px;
@@ -73,16 +68,12 @@ input[type=submit] {
 }
 
 input.name {
-    outline: none;
-    border: none;
     background: #b1b1b1;
     padding-left: 50px;
     margin-bottom: 20px;
 }
 
 input.email {
-    outline: none;
-    border: none;
     background: #b1b1b1;
     padding-left: 50px;
     margin-bottom: 30px;
@@ -122,7 +113,6 @@ input:focus, textarea:focus {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	float:right;
-    color: #fff;
     border: 1px solid #253737;
     background: #00213C;
     background: -webkit-gradient(linear, left top, left bottom, from(#3280B0), to(#00213C));
@@ -135,11 +125,7 @@ input:focus, textarea:focus {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    color: #fff;
-
-    border-radius: 20px;
-    border: 1px solid #fff;
-    color: #fff;
+    color: #e1e1e1;
 }
 
 .btn:hover {
@@ -189,15 +175,22 @@ input:focus, textarea:focus {
     font-weight: 700;
     color: #fff;
 }
-.icons{ 
+/* .icons{ 
     margin-top: 50px;
-}
+} */
 .social{
     margin-right: 30px;
     margin-left: 30px;
 }
-
-
+.fa-vk{
+    color:#3280B0;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-instagram{
+    color: palevioletred;
+}
 .form-control::placeholder {
     color: #016096;
     font-weight: 600;
@@ -216,13 +209,13 @@ input:focus, textarea:focus {
     text-transform: uppercase;
     margin-top: 12px;
 }
-.h6-agree{
+h6{
     margin-right: 15px;
     font-size: 9px;
     font-weight: 600;
     display: inline-block;
 }
-.text{
+#text{
     font-size: 7px;
     margin-right: 12px;
 }
@@ -247,7 +240,7 @@ input:focus, textarea:focus {
     h3{
         margin-top: 50px;
         font-size: 23px;
-        text-align: center;
+        margin-right: 300px;
     }
     p.class{
         margin-right: 300px;
@@ -264,10 +257,10 @@ input:focus, textarea:focus {
         width: 250px;
         height: 200px;
     }
-    .icons{
+    /* .icons{
         margin-right: 300px;
         margin-top: 100px;
-    }
+    } */
     .img-ftr{
         width: 100px;
     }

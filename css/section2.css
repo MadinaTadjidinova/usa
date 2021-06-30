@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');  
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); 
  html,body {overflow-x:hidden;} 
-
- .containerr{
-     margin-top: 100px;
- }
- .main1{ 
-     margin-top: 100px; 
+ .containerr{ 
+     margin-top:100px; 
+ } 
+ .main1{   
     max-width: 1160px; 
     margin: auto; 
      display: flex; 
@@ -113,15 +111,29 @@
  } 
  .carousel-control-prev { 
      margin-left: -120px; 
-   
  } 
  .carousel-control-next, .carousel-control-prev { 
      margin-right: -60px; 
-     
  }  
  .carousel { 
      width: 1100px; 
  }  
+ 
+.ikkk{ 
+    margin-right: 0; margin-left: 45px; 
+    width: 70px; 
+    height: 80px; 
+} 
+.ikr{ 
+    margin-left: -20px; 
+    width: 70px; 
+    height: 80px; 
+} 
+ 
+ 
+ 
+ 
+ 
  @media (max-width: 1500px){ 
      .k .ikonka1{ 
          width: 90px; 
@@ -143,6 +155,18 @@
  .carousel-control-prev { 
      margin-left: -100px; 
  } 
+ 
+ 
+ 
+  
+.ikkk{ 
+    margin-left: 20px; 
+} 
+.ikr{ 
+    margin-left: -20px; 
+   
+} 
+ 
  } 
  @media (max-width: 1200px){ 
      .col .h1{ 
@@ -191,8 +215,13 @@
  .carousel-control-prev { 
      margin-left: -80px; 
  } 
+ 
+  
+.ikr{ 
+    margin-left:-40px; 
+   
+} 
       } 
-      
       @media (max-width: 1000px){ 
          .d{  
              margin-left: auto; 
@@ -203,194 +232,242 @@
              display: flex; 
            flex-direction: column; 
        } 
-       .b{ 
-        height:100px ; 
-        width: 500px; 
+         .b{  
+             margin-left: auto; 
+             margin-right: auto; 
+             width: 800px; 
+         }        
+ .carousel { 
+     width: 550px; 
+ }  
+ .d{  
+     height: 100px; 
+     width: 500px; 
+ } 
+ .b{ 
+     height:100px ; 
+     width: 500px; 
+ }  
+ .carousel-control-prev { 
+     margin-left: -60px; 
+ } 
+ 
+ .ikr{ 
+    margin-left: -50px; 
+   
+} 
+      } 
+ @media (max-width: 900px){ 
+     .main{ 
+         margin-left: 0px; 
+     } 
+   .col .h1{font-size: 38px;    } 
+     .col .h2{    font-size: 38px;} 
+   .carousel { 
+     width: 440px; 
+ }  
+ .d{  
+     height: 100px; 
+     width: 400px; 
+ } 
+ .b{ 
+     height:100px ; 
+     width: 400px; 
+ }  
+.ikkk{ 
+    margin-left: -5px; 
+} 
+ 
+.ikr{ 
+    margin-left: -30px; 
+} 
+ } 
+ @media (max-width: 800px){ 
+     .col .h1{ 
+     width: 300px; 
+       font-size: 38px; 
+       } 
+       .col .h2{  
+           font-size: 38px; 
+           width: 300px; 
+       }  
+       .ikr{ 
+        margin-left: -50px;  
     }  
-    .carousel-control-prev { 
-        margin-left: -60px; 
-    } 
+ .hello{ 
+     width: 504px; 
+ text-align: center; 
+ font-size: 34px; 
+ line-height: 48px; 
+ } 
+     } 
+      @media (max-width: 700px){ 
+           .col .p1{ 
+               width: 500px; 
+               font-size: 24px; 
+           }           
+ .add{ 
+     width: 350px; 
+ font-weight: 800; 
+ font-size: 18px; 
+ text-align: center; 
+ } 
+ .add2{ 
+     width: 350px; 
+ font-weight: 800; 
+ font-size: 18px; 
+ text-align: center; 
+ } 
+  
+ .d{  
+     height: 60px; 
+     width: 350px; 
+ } 
+ .b{ 
+     height:60px ; 
+     width: 350px; 
+ }  
+ 
+ .carousel { 
+    width: 450px; 
+} 
+ .ikkk{ 
+width: 0px; 
+height: 0px; 
+} 
+ 
+ .ikr{ 
+    width: 0px; 
+    height: 0px; 
+} 
+ 
          } 
-    @media (max-width: 900px){ 
-        .main{ 
-            margin-left: 0px; 
+ @media (max-width: 500px){ 
+     .col .h1{   font-size: 30px;   } 
+       .col .h2{  
+           font-size: 28px; 
+           line-height: 39px; 
+       } 
+       .hello{ 
+         padding-left: 0px; 
+         width: 400px; 
+     text-align: center; 
+     font-size: 30px; 
+     line-height: 44px; 
+     } 
+  .add{ 
+         width: 150px; 
+     font-weight: 800; 
+     font-size: 14px; 
+     text-align: center; 
+     } 
+     .add2{ 
+         width: 180px; 
+     font-weight: 800; 
+     font-size: 14px; 
+     text-align: center; 
+     }  
+     .carousel { 
+         width: 320px; 
+     }  
+     .d{  
+         height: 60px; 
+         width: 260px; 
+     } 
+     .b{ 
+         height:60px ; 
+         width: 260px; 
+     }  
+     .carousel-control-prev { 
+        margin-left: 0px; 
+    } 
+    .carousel-control-next, .carousel-control-prev { 
+        margin-right: 0px; 
+        
+    }  
+    .carousel-control-prev-icon{ 
+        background-color: bisque; 
+    } 
+     
+.ikkk{ 
+    
+    width: 0px; 
+    height: 0px; 
+} 
+.ikr{ 
+    width: 0px; 
+    height: 0px; 
+} 
+      }@media (max-width: 495px){    
+        .col .p1{ 
+     font-size: 18px; 
+        line-height: 25px; 
+        width: 300px;   
         } 
-      .col .h1{font-size: 38px;    } 
-        .col .h2{    font-size: 38px;} 
-     
-     
-     
-     
-      .carousel { 
-        width: 440px; 
-    }  
-    .d{  
-        height: 100px; 
-        width: 400px; 
-    } 
-    .b{ 
-        height:100px ; 
-        width: 400px; 
-    }  
-     
-    } 
-    @media (max-width: 800px){ 
-        .col .h1{ 
-        width: 300px; 
-          font-size: 38px; 
-          } 
+       .row-cols-2{      width: 10px;   } 
+    .col .h1{      font-size: 20px;      }     
+        .col .h2{  
+            font-size: 28px; 
+            line-height: 39px; 
+        } 
+        .img1 {         width: 250px;         } 
+     }    
+     @media (max-width: 400px)    { 
+        .k .ikonka1{ 
+            width: 80px; 
+        height: 80px; 
+        } 
           .col .h2{  
-              font-size: 38px; 
-              width: 300px; 
-          }    
-    .hello{ 
-        width: 504px; 
-    text-align: center; 
-    font-size: 34px; 
-    line-height: 48px; 
-    } 
+              font-size: 18px; 
+              line-height: 29px; 
+          } 
+          .col .p1{ 
+       font-size: 16px; 
+          line-height: 20px; 
+          width: 400px; 
+          }  
+          .img1 {  width: 250px;     } 
+           .row-cols-2{   width: 10px; } 
         } 
-         @media (max-width: 700px){ 
-              .col .p1{ 
-                  width: 500px; 
-                  font-size: 24px; 
-              }           
-    .add{ 
-        width: 250px; 
-    font-weight: 800; 
-    font-size: 18px; 
-    text-align: center; 
-    } 
-    .add2{ 
-        width: 250px; 
-    font-weight: 800; 
-    font-size: 18px; 
-    text-align: center; 
-    } 
-    .carousel { 
-        width: 350px; 
-    }  
-    .d{  
-        height: 60px; 
-        width: 250px; 
-    } 
-    .b{ 
-        height:60px ; 
-        width: 250px; 
-    }  
+        @media (min-width: 400px)  { .body{     overflow: hidden; }  } 
+        @media (max-width: 340px){ 
+            .col .h1{   font-size: 18px;   } 
+              .col .h2{font-size: 18px;   } 
+              .hello{ 
+                padding-left: 0px; 
+                width: 300px; 
+            font-size: 26px; 
             } 
-    @media (max-width: 500px){ 
-        .col .h1{   font-size: 26px;   } 
-          .col .h2{  
-              font-size: 28px; 
-              line-height: 39px; 
-          } 
-          .hello{ 
-            padding-left: 0px; 
-            width: 400px; 
-        text-align: center; 
-        font-size: 30px; 
-        line-height: 44px; 
-        } 
-     .add{ 
-            width: 150px; 
-        font-weight: 800; 
-        font-size: 14px; 
-        text-align: center; 
-        } 
-        .add2{ 
-            width: 180px; 
-        font-weight: 800; 
-        font-size: 14px; 
-        text-align: center; 
-        }  
-        .carousel { 
-            width: 240px; 
-        }  
-        .d{  
-            height: 60px; 
-            width: 180px; 
-        } 
-        .b{ 
-            height:60px ; 
-            width: 180px; 
-        }  
-         } 
-         @media (max-width: 495px){    
-                .col .p1{ 
-             font-size: 18px; 
-                line-height: 25px; 
-                width: 300px;   
+           .add{ 
+                width: 140px; 
+            font-weight: 600; 
+            font-size: 14px; 
+            text-align: center; 
+            padding-top: 10px; 
+            } 
+            .add2{ 
+                width: 160px; 
+            font-weight: 600; 
+            font-size: 14px; 
+            text-align: center; 
+            padding-top: 10px; 
+            }    
+            .carousel { 
+                width: 200px; 
+            }  
+            .d{  
+                height: 40px; 
+                width: 160px; 
+              } 
+            .b{ 
+                height:40px ; 
+                width: 160px; 
+            } } 
+             @media (max-width: 300px){ 
+                .carousel { 
+                    width: 160px; 
+                }  
+                .carousel-control-next, .carousel-control-prev{ 
+                margin: -40px; 
                 } 
-               .row-cols-2{      width: 10px;   } 
-            .col .h1{      font-size: 26px;      }     
-                .col .h2{  
-                    font-size: 28px; 
-                    line-height: 39px; 
-                } 
-                .img1 {         width: 250px;         } 
-             }    
-             @media (max-width: 400px)    { 
-                .k .ikonka1{ 
-                    width: 80px; 
-                height: 80px; 
-                } 
-                .col .h1{ 
-                  font-size: 18px; 
-                  line-height: 39px; 
-                  } 
-                  .col .h2{  
-                      font-size: 18px; 
-                      line-height: 29px; 
-                  } 
-                  .col .p1{ 
-               font-size: 16px; 
-                  line-height: 20px; 
-                  width: 400px; 
-                  }  
-                  .img1 {  width: 250px;     } 
-                   .row-cols-2{   width: 10px; } 
-                } 
-                @media (min-width: 400px)  { .body{     overflow: hidden; }  } 
-                @media (max-width: 340px){ 
-                    .col .h1{   font-size: 18px;   } 
-                      .col .h2{font-size: 18px;   } 
-                      .hello{ 
-                        padding-left: 0px; 
-                        width: 300px; 
-                    font-size: 26px; 
-                    } 
-                   .add{ 
-                        width: 140px; 
-                    font-weight: 600; 
-                    font-size: 14px; 
-                    text-align: center; 
-                    padding-top: 10px; 
-                    } 
-                    .add2{ 
-                        width: 160px; 
-                    font-weight: 600; 
-                    font-size: 14px; 
-                    text-align: center; 
-                    padding-top: 10px; 
-                    }    
-                    .carousel { 
-                        width: 200px; 
-                    }  
-                    .d{  
-                        height: 40px; 
-                        width: 160px; 
-                      } 
-                      .b{ 
-                        height:40px ; 
-                        width: 160px; 
-                    } } 
-                     @media (max-width: 300px){ 
-                        .carousel { 
-                            width: 160px; 
-                        }  
-                       
-                        .carousel-control-next, .carousel-control-prev{ 
-                        margin: -40px; 
-                        } 
-                       }
+               }

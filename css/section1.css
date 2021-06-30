@@ -1,4 +1,200 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+body {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif !important;
+}
+.section-jasmine {
+  background-color: #016096;
+  width: 90%;
+  margin: auto;
+  height: 380px;
+  border-radius: 2%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.visa {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+  height: 155px;
+  color: white;
+  box-shadow: 1px 5px 5px 0px #00000041;
+  border-bottom: 4px solid #016096;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+
+  letter-spacing: 0em;
+  text-align: left;
+}
+.prog {
+  width: 300px;
+  background: linear-gradient(146.72deg, #ffffff -7.37%, #ebebeb 83.66%);
+  display: flex;
+  border-radius: 3%;
+  flex-direction: column;
+  color: black;
+  height: 270px;
+  box-shadow: 1px 5px 5px 0px #00000041;
+  border-bottom: 4px solid #cecece;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+margin-top: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 19px;
+}
+
+.prog:nth-child(3) {
+  justify-content: flex-end;
+}
+.age {
+  box-shadow: 1px 10px 5px 0px #00000028;
+  width: 300px;
+  background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5%;
+  box-shadow: 1px 5px 5px 0px #00000041;
+  border-bottom: 4px solid #016096;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.age p {
+    margin: -5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.visa h1 {
+  color: #fcc63d;
+  font-size: 40px;
+  margin-bottom: -20px;
+  
+  
+}
+.visa p {
+    font-size: 22px;
+    margin-bottom: 1px;
+    
+    
+  }
+.prog h1 {
+  color: #fcc63d;
+  font-size: 40px;
+}
+.age h1 {
+  color: #fcc63d;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+.image-1 {
+  width: 90px;
+  align-items: flex-end;
+  margin-left: 200px;
+  transform: translateY(95px);
+}
+.image-2 {
+  width: 100px;
+  justify-content: flex-end;
+  transform: translateX(200px);
+  margin-top: -160px;
+  margin-bottom: 29px;
+}
+.image-3 {
+  width: 169px;
+  padding-left: 60px;
+  padding-bottom: 70px;
+
+  height: 130px;
+}
+.jasmin {
+    position: absolute;
+    ;
+    z-index: 1;
+    top: 900px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+span {
+  margin: 5.9px;
+}
+@media (max-width: 750px) {
+  section {
+    background-color: #3280b0;
+    height: auto;
+    width: 100%;
+    margin: 0 px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .visa {
+    width: 328px;
+    background-color: blueviolet;
+    margin: 10px;
+    height: 155px;
+  }
+  .prog {
+    width: 328px;
+    background-color: blueviolet;
+    margin: 10px;
+    height: 183px;
+    font-size: 16px;
+  }
+  .prog h1 {
+    margin: 0;
+  }
+  .age {
+    width: 328px;
+    background-color: blueviolet;
+    margin: 10px;
+    height: 183px;
+    padding-left: 20px;
+    color: white;
+  }
+  .visa h1,
+  .prog h1,
+  .age h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+.prog span {
+  display: block;
+}
+.visa,
+.image-1 {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+
+
+
 body {
   font-family: Montserrat !important;
   font-style: normal;
@@ -132,8 +328,7 @@ h3 {
   letter-spacing: 0em;
   text-align: left;
 }
-.progarm-visa-div {
-}
+
 .progarm,
 h1 {
   font-weight: 800;
@@ -240,6 +435,99 @@ position: relative;
   color: black;
 }
 }
+
+
+@media (max-width: 950px){
+  .pornhub{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 18px;
+    color: white  ;
+  }
+  .company{
+    font-size:35px;
+    color: white  ;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+    
+    display: flex;
+  }
+  .image1 {
+    margin-left: 40px;
+    width: 290px;
+    padding-right: 10px;
+    transform: translateY(995px);
+  }
+  .text-2 {
+    font-family: Montserrat;
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 390px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: start;
+  }
+  .text-1 {
+    font-family: Montserrat;
+    
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 290px;
+  }
+  .section-company{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .parent{
+    height: 0px;
+  }
+  .text-2 p{
+    color: black;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 body {
   font-style: normal;
@@ -249,10 +537,12 @@ body {
   background-color: #016096;
   width: 90%;
   margin: auto;
-  height: 380px;
+  /* height: 380px; */
   border-radius: 2%;
+  /* display: flex;
+  flex-direction: row; */
 }
-.main {
+.main2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -331,13 +621,14 @@ margin-top: 60px;
   color: #fcc63d;
   font-size: 40px;
   margin-bottom: -20px;
+  transform: translateY(-100px);
   
   
 }
 .visa p {
     font-size: 22px;
     margin-bottom: 1px;
-    
+    transform: translateY(-80px);
     
   }
 .prog h1 {
@@ -355,7 +646,7 @@ margin-top: 60px;
   width: 90px;
   align-items: flex-end;
   margin-left: 200px;
-  transform: translateY(85px);
+  transform: translateY(05px);
 }
 .image-2 {
   width: 100px;
@@ -371,18 +662,34 @@ margin-top: 60px;
 
   height: 130px;
 }
-.jasmin {
-    position: absolute;
-    left: 550px;
-    z-index: 1;
-    top: -20px;
-  text-align: center;
-  font-size: 40px;
-  color: white;
-}
+
 span {
   margin: 5.9px;
 }
+
+
+@media (max-width: 1200px) {
+  .main2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visa h1 {
+    
+    transform: translateY(1px);
+    
+  }
+
+  .visa p {
+    
+    transform: translateY(1px);
+    
+  }
+
+
+
+
+
 @media (max-width: 750px) {
   .section-company-jasmine {
     background-color: #3280b0;
@@ -390,7 +697,7 @@ span {
     width: 100%;
     margin: 0 px;
   }
-  .main {
+  .main2 {
     display: flex;
     flex-direction: column;
   }
@@ -432,397 +739,6 @@ span {
 .image-1 {
   display: flex;
   justify-content: flex-end;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-html,body {overflow-x:hidden;}
-.main{
-    margin-top: 100px;
-   max-width: 1160px;
-   margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-.k{
-    display: flex;
-    flex-direction: row;
-}
-.k .ikonka1{
-    width: 120px;
-height: 120px;
-margin-bottom: 30px;
-}
-.ik{
-    display: flex;
-   flex-direction: column;
-} 
-.ik .h1{
- font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 59px;
-}
-.ik .h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 59px;
-    color: #3280B0;
-}
-.col .p1{
-    border-left: 5px solid #016096;
-    padding: 5px; 
-     font-family: 'Montserrat', sans-serif;
-    width: 600px;
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 39px;
-color: black; 
-}
-.hello{
-    width: 744px;
-height: 108px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 44px;
-line-height: 68px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-}
-.education{color: #096396;}
-.img1{   width: 500px;}  
-.add{
-    width: 560px;
-    height: 45px;
-    padding-top: 30px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    text-align: center;
-    color: #016096;
-    margin: 25px auto; 
-}
-.add2{
-    padding-top: 30px;
-    width: 560px;
-    height: 45px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    text-align: center;
-    color: #000000;
-    margin:  auto; 
-}
-.d{ 
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 900px;
-    border-radius: 100%  100% 0 0;
-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-
-}
-.b{
-    margin-left: auto;
-    margin-right: auto;
-    height:100px ;
-    width: 900px;
-    border-radius:0%  0% 100% 100%;
-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-}
-.carousel-inner{
-    border-radius: 20px;
-}
-.carousel-control-prev {
-    margin-left: -120px;
-}
-.carousel-control-next, .carousel-control-prev {
-    margin-right: -60px;
-} 
-.carousel {
-    width: 1100px;
-} 
-@media (max-width: 1500px){
-    .k .ikonka1{
-        width: 90px;
-    height: 90px;
-    }  
-.carousel {
-    width: 800px;
-} 
-.d{ 
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-}
-.b{ 
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-}     
-.carousel-control-prev {
-    margin-left: -100px;
+  transform: translateY(75px)
 }
 }
-@media (max-width: 1200px){
-    .col .h1{
-      font-size: 36px;
-      }
-      .hello{
-        width: 504px;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 38px;
-    text-align: center;
-    }
-      .col .h2{ 
-          font-size: 38px;
-      }
-       .row-cols-2{
-        display: flex;
-      flex-direction: column;
-  } 
-  body {overflow-x:hidden;}
-      .col .p1{
-   font-size: 28px;
-      }  
-.add{
-    width: 350px;
-font-weight: 800;
-font-size: 22px;
-}
-.add2{
-    width: 350px;   
-font-weight: 800;
-font-size: 18px;
-}
-      .img1{      width: 400px;  }    
-.carousel {
-    width: 700px;
-} 
-.d{ 
-    height: 100px;
-    width: 600px;
-}
-.b{
-    height:100px ;
-    width: 600px;
-} 
-.carousel-control-prev {
-    margin-left: -80px;
-}
-     }
-    
-     @media (max-width: 1000px){
-        .d{ 
-            margin-left: auto;
-            margin-right: auto;
-            width: 800px;
-        }
-        .b{ 
-            margin-left: auto;
-            margin-right: auto;
-            width: 800px;
-        }       
-.carousel {
-    width: 600px;
-} 
-.d{ 
-    height: 100px;
-    width: 500px;
-}
-.b{
-    height:100px ;
-    width: 500px;
-} 
-.carousel-control-prev {
-    margin-left: -60px;
-}
-     }
-@media (max-width: 900px){
-    .main{
-        margin-left: 0px;
-    }
-  .col .h1{font-size: 38px;    }
-    .col .h2{    font-size: 38px;}
-    .row-cols-2{
-        display: flex;
-      flex-direction: column;
-  }
-  .carousel {
-    width: 500px;
-} 
-.d{ 
-    height: 100px;
-    width: 400px;
-}
-.b{
-    height:100px ;
-    width: 400px;
-} 
-}
-@media (max-width: 800px){
-    .col .h1{
-    width: 300px;
-      font-size: 38px;
-      }
-      .col .h2{ 
-          font-size: 38px;
-          width: 300px;
-      }   
-.hello{
-    width: 504px;
-text-align: center;
-font-size: 34px;
-line-height: 48px;
-}
-    }
-     @media (max-width: 700px){
-          .col .p1{
-              width: 500px;
-              font-size: 24px;
-          }          
-.add{
-    width: 250px;
-font-weight: 800;
-font-size: 18px;
-text-align: center;
-}
-.add2{
-    width: 250px;
-font-weight: 800;
-font-size: 18px;
-text-align: center;
-}
-.carousel {
-    width: 350px;
-} 
-.d{ 
-    height: 60px;
-    width: 250px;
-}
-.b{
-    height:60px ;
-    width: 250px;
-} 
-        }
-@media (max-width: 500px){
-    .col .h1{   font-size: 26px;   }
-      .col .h2{ 
-          font-size: 28px;
-          line-height: 39px;
-      }
-      .hello{
-        padding-left: 0px;
-        width: 400px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 44px;
-    }
- .add{
-        width: 150px;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: center;
-    }
-    .add2{
-        width: 180px;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: center;
-    } 
-    .carousel {
-        width: 240px;
-    } 
-    .d{ 
-        height: 60px;
-        width: 180px;
-    }
-    .b{
-        height:60px ;
-        width: 180px;
-    } 
-     }
-     @media (max-width: 495px){   
-            .col .p1{
-         font-size: 18px;
-            line-height: 25px;
-            width: 300px;  
-            }
-           .row-cols-2{      width: 10px;   }
-        .col .h1{      font-size: 26px;      }    
-            .col .h2{ 
-                font-size: 28px;
-                line-height: 39px;
-            }
-            .img1 {         width: 250px;         }
-         }   
-         @media (max-width: 400px)    {
-            .k .ikonka1{
-                width: 80px;
-            height: 80px;
-            }
-            .col .h1{
-              font-size: 18px;
-              line-height: 39px;
-              }
-              .col .h2{ 
-                  font-size: 18px;
-                  line-height: 29px;
-              }
-              .col .p1{
-           font-size: 16px;
-              line-height: 20px;
-              width: 400px;
-              } 
-              .img1 {  width: 250px;     }
-               .row-cols-2{   width: 10px; }
-            }
-            @media (min-width: 400px)  { .body{     overflow: hidden; }  }
-            @media (max-width: 340px){
-                .col .h1{   font-size: 18px;   }
-                  .col .h2{font-size: 18px;   }
-                  .hello{
-                    padding-left: 0px;
-                    width: 300px;
-                font-size: 26px;
-                }
-               .add{
-                    width: 140px;
-                font-weight: 600;
-                font-size: 14px;
-                text-align: center;
-                padding-top: 10px;
-                }
-                .add2{
-                    width: 160px;
-                font-weight: 600;
-                font-size: 14px;
-                text-align: center;
-                padding-top: 10px;
-                }   
-                .carousel {
-                    width: 200px;
-                } 
-                .d{ 
-                    height: 40px;
-                    width: 160px;
-                  }
-                .b{
-                    height:40px ;
-                    width: 160px;
-                } }
-                 @media (max-width: 300px){
-                    .carousel {
-                        width: 160px;
-                    } }

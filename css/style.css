@@ -86,6 +86,10 @@ body{
     border-left: 5 solid #fff;
 }
 
+.link:hover{
+    color: #016096;
+}
+
 @media(max-width: 900px){
     .topic{
         font-size: 30px;

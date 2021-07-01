@@ -144,6 +144,9 @@ span {
     width: 100%;
     margin: 0 px;
   }
+  .visa p{
+    font-size: 19pxs;
+  }
   .main {
     display: flex;
     flex-direction: column;
@@ -382,6 +385,9 @@ s .card-img-top-2 {
     font-size: 35px;
     color: white;
   }
+  .prog span {
+    font-size: 16px;
+  }
   .main-text {
     display: flex;
     flex-direction: column;
@@ -396,6 +402,7 @@ s .card-img-top-2 {
     width: 265px;
     padding-right: 10px;
   }
+  
   .text-2 {
     font-family: Montserrat;
     color: black;
@@ -429,6 +436,14 @@ s .card-img-top-2 {
 }
 
 @media (max-width: 950px) {
+  .section-jasmine {
+    background-color: #016096;
+    width: 90%;
+    margin: auto;
+    height: 700px;
+    border-radius: 2%;
+  }
+
   .pornhub {
     display: flex;
     flex-direction: column;
@@ -620,6 +635,7 @@ body {
 
 span {
   margin: 5.9px;
+  font-size: 15ox;
 }
 
 @media (max-width: 1200px) {
@@ -635,7 +651,10 @@ span {
   .visa p {
     transform: translateY(1px);
   }
-
+  .vissa{
+    text-align: start;
+    padding-bottom: 12px;
+  }
   /* ByMadina */
 @media(max-width: 770px){
   .jasmin{
@@ -654,13 +673,13 @@ span {
       flex-direction: column;
     }
     .visa {
-      width: 328px;
+      
       background-color: blueviolet;
       margin: 10px;
       height: 155px;
     }
     .prog {
-      width: 328px;
+     
       background-color: blueviolet;
       margin: 10px;
       height: 183px;
@@ -670,7 +689,7 @@ span {
       margin: 0;
     }
     .age {
-      width: 328px;
+  
       background-color: blueviolet;
       margin: 10px;
       height: 183px;
@@ -682,6 +701,11 @@ span {
     .age h1 {
       font-size: 40px;
       font-weight: 800;
+      
+  }
+    .vissa{
+      text-align: start;
+      padding-bottom: 12px;
     }
   }
   .prog span {

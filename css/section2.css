@@ -15,6 +15,7 @@
  .k{ 
      display: flex; 
      flex-direction: row; 
+     margin-left: 30px;
  } 
  .k .ikonka1{ 
      width: 120px; 
@@ -189,6 +190,7 @@
    body {overflow-x:hidden;} 
        .col .p1{ 
     font-size: 28px; 
+    margin-left: 30px;
        }   
  .add{ 
      width: 350px; 
@@ -281,6 +283,10 @@
 .ikr{ 
     margin-left: -30px; 
 } 
+.containerr{
+    margin-top: 200px;
+}
+
  } 
  @media (max-width: 800px){ 
      .col .h1{ 
@@ -385,9 +391,9 @@ height: 0px;
         margin-right: 0px; 
         
     }  
-    .carousel-control-prev-icon{ 
+    /* .carousel-control-prev-icon{ 
         background-color: bisque; 
-    } 
+    }  */
      
 .ikkk{ 
     
@@ -398,6 +404,8 @@ height: 0px;
     width: 0px; 
     height: 0px; 
 } 
+
+
       }@media (max-width: 495px){    
         .col .p1{ 
      font-size: 18px; 

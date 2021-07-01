@@ -186,6 +186,7 @@ input:focus, textarea:focus {
     font-size: 12px;
     font-weight: 700;
     color: #fff;
+    transform: translateX(-15%);
 }
 .icons{ 
     margin-top: 50px;
@@ -229,28 +230,8 @@ input:focus, textarea:focus {
 .input{
     margin: 0 auto;
 }
-@media(max-width: 1370px){
-    .img-ftr{
-        position: relative;
-        top: 18px;
-    }
-}
-@media(max-width: 1200px){
-    .element{
-        font-size: 10px;
-    }
-  
-}
-@media(max-width: 1150px){
-    .texts{
-        display: none;
-    }
-    .img-ftr{
-        position: relative;
-        bottom: -10px;
-    }
-}
-@media (max-width:750px) {
+
+@media (max-width:1200px) {
     input.name{
          height: 40px;
         width: 230px;
@@ -278,19 +259,18 @@ input:focus, textarea:focus {
         margin-top: 35px;
     }
     .kamilla{
+        padding: 5px 400px 5px 105px;   
         margin-top: 40px;
         font-size: 30px;
         text-align: center;
     }
     p.class{
-        margin: 0 auto;
+        margin-right: 300px;
         font-size: 15px;
         font-weight: 600;
-        padding-top: 10px;
-        padding-bottom: 20px;
     }
     .contactForm{
-        margin: 0 auto;
+        margin-right: 300px;
     }
     .posts{
         margin-right: 200px;
@@ -325,212 +305,7 @@ input:focus, textarea:focus {
         background: -ms-linear-gradient(top, #3280B0, #00213C);
         background: -o-linear-gradient(top, #3280B0, #00213C);
         background-image: -ms-linear-gradient(top, #3280B0 0%, #00213C 100%);
-        width: 1175px;
-        transform: translateX(-5%);
+        width: 100%;
     }
-    .icons{
-        transform: translateX(2%);
-        padding-top: 20px;
-    }
-    .img-ftr{
-        transform: translateX(106%);
-    }
-    .usa{
-        transform: translateX(-119%);
-    }
- 
-}
-
-@media(max-width: 815px){
-    .kamilla{
-        margin-top: 40px;
-        font-size: 29px;
-        text-align: center;
-    }
-    p.class{
-        margin: 0 auto;
-        font-size: 15px;
-    }
-    .contactForm{
-        margin: 0 auto;
-    }
-    .icons{
-        transform: translateX(2%);
-        padding-top: 20px;
-    }
-}
-@media(max-width: 750px){
-    .kamilla{
-        margin-top: 40px;
-        font-size: 25px;
-        text-align: center;
-    }
-    p.class{
-        margin: 0 auto;
-        font-size: 14px;
-    }
-    .contactForm{
-        margin: 0 auto;
-    }
-    .icons{
-        transform: translateX(1%);
-        padding-top: 20px;
-    }
-}
-@media(max-width: 730px){
-    .kamilla{
-        transform: translateX(-5%);
-        margin-top: 40px;
-        font-size: 24px;
-    }
-    p.class{
-        transform: translateX(-5%);
-        font-size: 12px;
-    }
-    .contactForm{
-        transform: translateX(-5%);
-    }
-    .icons{
-        transform: translateX(-3%);
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 700px){
-    .kamilla{
-        transform: translateX(-7%);
-        margin-top: 40px;
-        font-size: 27px;
-        text-align: center;
-    }
-    p.class{
-        transform: translateX(-7%);
-        font-size: 15px;
-    }
-    .contactForm{
-        transform: translateX(-7%);
-    }
-    .icons{
-        transform: translateX(-4%);
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 650px){
-    .kamilla{
-        transform: translateX(-10%);
-        margin-top: 40px;
-        font-size: 26px;
-        text-align: center;
-    }
-    p.class{
-        transform: translateX(-10%);
-        font-size: 10px;
-    }
-    .contactForm{
-        transform: translateX(-10%);
-    }
-    .icons{
-        transform: translateX(-7%);
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 600px){
-    .kamilla{
-        transform: translateX(-13%);
-        margin-top: 40px;
-        font-size: 24px;
-        text-align: center;
-    }
-    p.class{
-        transform: translateX(-13%);
-        font-size: 10px;
-    }
-    .contactForm{
-        transform: translateX(-13%);
-    }
-    .icons{
-        transform: translateX(-10%);
-        padding-top: 20px;
-    }
-}
-
-
-@media(max-width: 550px){
-    .kamilla{
-        transform: translateX(-17%);
-        margin-top: 40px;
-        font-size: 21px;
-    }
-    p.class{
-        transform: translateX(-17%);
-        font-size: 9px;
-    }
-    .contactForm{
-        transform: translateX(-17%);
-    }
-    .icons{
-        transform: translateX(-13%);
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 500px){
-    .kamilla{
-        transform: translateX(-20%);
-        margin-top: 40px;
-        font-size: 20px;
-    }
-    p.class{
-        transform: translateX(-20%);
-        font-size: 9px;
-    }
-    .contactForm{
-        transform: translateX(-20%);
-    }
-    .icons{
-        transform: translateX(-16%);
-        padding-top: 20px;
-    }
-}
-
-
-
-@media(max-width: 450px){
-    .kamilla{
-        transform: translateX(-23%);
-        margin-top: 40px;
-        font-size: 18px;
-    }
-    p.class{
-        transform: translateX(-23%);
-        font-size: 8px;
-    }
-    .contactForm{
-        transform: translateX(-23%);
-    }
-    .icons{
-        transform: translateX(-19%);
-        padding-top: 20px;
-    }
-}
-
-@media(max-width: 400px){
-    .kamilla{
-        transform: translateX(-26%);
-        margin-top: 40px;
-        font-size: 16px;
-    }
-    p.class{
-        transform: translateX(-26%);
-        font-size: 8px;
-    }
-    .contactForm{
-        transform: translateX(-26%);
-    }
-    .icons{
-        transform: translateX(-22%);
-        padding-top: 20px;
-    }
+    
 }

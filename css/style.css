@@ -193,6 +193,26 @@ body{
    .navv{
     display: none;
 }
+.btn-blue{
+    width: 200px;
+    height: 55px;
+    display: block;
+    padding-top: 15px;
+}
+.btn-blue-div{
+    position: absolute;
+    left: 240px;
+    top: 490px;
+}
+.end-img-head{
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: 580px;   
+}
+.content{
+    padding-bottom: 0px;
+}
 }
 @media(max-width: 500px){
   .h11{
@@ -202,7 +222,7 @@ body{
   }
   .h12{
       position: absolute;
-      left: 140px;
+      left: 160px;
       top: 270px;
   }
   .border-left-head{
@@ -217,17 +237,55 @@ body{
 }
 .btn-blue-div{
     position: absolute;
-    left: 240px;
+    left: 230px;
     top: 530px;
+  
+}
+.btn-blue{
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
 }
 .end-img-head{
     display: block;
     position: absolute;
-    left: 240px;
-    top: 630px;   
+    left: 220px;
+    top: 600px; 
 }
+}
+@media(max-width:470px){
+    .h11{
+        position: absolute;
+        left: 115px;
+        font-size: 40px;
+    }
+    .h12{
+        position: absolute;
+        left: 140px;
+        top: 270px;
+    }
+   .container .img{
+            position: absolute;
+            left: 150px;
+            transform:translateY(-80%)
+    }
+    .span{
+        position: absolute;
+        left: 54px;
+        top: 80px;
+    }
+    .end-img-head{
+        display: block;
+        position: absolute;
+        left: 210px;
+        top: 580px;   
+    }
 }
 @media(max-width: 450px){
+    .img-head{
+        display: none;
+    }
     .navv{
         display: none;
     }
@@ -275,6 +333,13 @@ body{
     left: 50px;
     top: 80px;
 }
+}
+@media(max-width:435px){
+    .btn-blue-div{
+        position: absolute;
+        left: 220px;
+        top: 550px;
+    }
 }
 @media(max-width: 420px){
     .navv{

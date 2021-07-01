@@ -3,6 +3,18 @@ body {
   font-style: normal;
   font-family: "Montserrat", sans-serif !important;
 }
+.madina{
+  color: #3280B0;
+   font-size:72px;
+    margin-top: -1px
+}
+.madina2{
+  color: #000;
+  font-size: 64px;
+}
+.company{
+  padding-top: 50px;
+}
 .section-jasmine {
   background-color: #016096;
   width: 90%;
@@ -66,19 +78,6 @@ body {
   background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
   height: 183px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 5%;
-  box-shadow: 1px 5px 5px 0px #00000041;
-  border-bottom: 4px solid #016096;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  color: white;
-  letter-spacing: 0em;
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 40px;
 }
 .age p {
   margin: -5px;
@@ -139,12 +138,11 @@ span {
 }
 @media (max-width: 750px) {
   section {
-
     height: auto;
     width: 100%;
     margin: 0 px;
   }
-  .visa p{
+  .visa p {
     font-size: 19pxs;
   }
   .main {
@@ -328,7 +326,6 @@ h3 {
 .progarm,
 h1 {
   font-weight: 800;
-  text-align: center;
 }
 .card:nth-child(1) {
   background: linear-gradient(146.72deg, #3078a5 -7.37%, #569bc6 83.66%);
@@ -373,6 +370,12 @@ s .card-img-top-2 {
 }
 
 @media (max-width: 750px) {
+  .madina{
+     font-size:68px;
+  }
+  .madina2{
+    font-size: 60px;
+  }
   .pornhub {
     display: flex;
     flex-direction: column;
@@ -402,7 +405,7 @@ s .card-img-top-2 {
     width: 265px;
     padding-right: 10px;
   }
-  
+
   .text-2 {
     font-family: Montserrat;
     color: black;
@@ -444,6 +447,7 @@ s .card-img-top-2 {
     border-radius: 2%;
   }
 
+
   .pornhub {
     display: flex;
     flex-direction: column;
@@ -465,6 +469,7 @@ s .card-img-top-2 {
 
     display: flex;
   }
+ 
   .image1 {
     margin-left: 40px;
     width: 290px;
@@ -477,7 +482,7 @@ s .card-img-top-2 {
     font-size: 18px;
     line-height: 32px;
     font-weight: 600;
-    width: 390px;
+    width: 360px;
     padding-left: 0px;
     margin-left: 0px;
     text-align: start;
@@ -503,13 +508,60 @@ s .card-img-top-2 {
   }
 }
 
+@media(max-width: 480px){
+  .madina{
+    font-size:60px;
+ }
+ .madina2{
+   font-size: 52px;
+ }
+}
+@media(max-width: 480px){
+  .madina{
+    font-size:52px;
+ }
+ .madina2{
+   font-size: 44px;
+ }
+}
+@media(max-width: 400px){
+  .madina{
+    font-size:46px;
+ }
+ .madina2{
+   font-size: 32px;
+ }
+}
+@media(max-width: 350px){
+  .madina{
+    font-size:46px;
+ }
+ .madina2{
+   font-size: 32px;
+ }
+}
+@media(max-width: 280px){
+  .madina{
+    font-size:35px;
+ }
+ .madina2{
+   font-size: 25px;
+ }
+}
+@media(max-width: 200px){
+  .madina{
+    font-size:15px;
+ }
+ .madina2{
+   font-size: 10px;
+ }
+}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 body {
   font-style: normal;
   font-family: "Montserrat", sans-serif !important;
 }
 .section-company-jasmine {
-  
   width: 90%;
   margin: auto;
   /* height: 380px; */
@@ -557,7 +609,7 @@ body {
   border-bottom: 4px solid #cecece;
   font-size: 24px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
@@ -600,6 +652,7 @@ body {
 .visa p {
   font-size: 22px;
   margin-bottom: 1px;
+  font-weight: 700;
 }
 .prog h1 {
   color: #fcc63d;
@@ -616,7 +669,6 @@ body {
   width: 90px;
   align-items: flex-end;
   margin-left: 190px;
-  transform: translateY(80px);
 }
 .image-2 {
   width: 100px;
@@ -650,20 +702,20 @@ span {
 
   .visa p {
     transform: translateY(1px);
+    font-weight: 700;
   }
-  .vissa{
+  .vissa {
     text-align: start;
     padding-bottom: 12px;
   }
   /* ByMadina */
-@media(max-width: 770px){
-  .jasmin{
-    display: none;
+  @media (max-width: 770px) {
+    .jasmin {
+      display: none;
+    }
   }
-}
   @media (max-width: 750px) {
     .section-company-jasmine {
-    
       height: auto;
       width: 100%;
       margin: 0 px;
@@ -673,13 +725,11 @@ span {
       flex-direction: column;
     }
     .visa {
-      
       background-color: blueviolet;
       margin: 10px;
       height: 155px;
     }
     .prog {
-     
       background-color: blueviolet;
       margin: 10px;
       height: 183px;
@@ -689,7 +739,6 @@ span {
       margin: 0;
     }
     .age {
-  
       background-color: blueviolet;
       margin: 10px;
       height: 183px;
@@ -701,9 +750,8 @@ span {
     .age h1 {
       font-size: 40px;
       font-weight: 800;
-      
-  }
-    .vissa{
+    }
+    .vissa {
       text-align: start;
       padding-bottom: 12px;
     }
@@ -715,6 +763,5 @@ span {
   .image-1 {
     display: flex;
     justify-content: flex-end;
-    transform: translateY(0px);
   }
 }

@@ -16,6 +16,9 @@ body{
 
     transform: translateX(70%);
 }
+.end-img-head{
+    display: none;
+}
 
 .container .img {
     transform: translateY(-16%);
@@ -82,21 +85,17 @@ body{
     border-left: 5px solid #fff;
     padding-left: 20px;
 }
-.border-left{
-    border-left: 5 solid #fff;
-}
-
 .link:hover{
     color: #016096;
 }
 
 @media(max-width: 900px){
     .topic{
-        font-size: 30px;
+        font-size: 40px;
         transition: 1s;
     }
     .topic1{
-        font-size: 25px;
+        font-size: 30px;
         transition: 1s;
     }
   }
@@ -164,46 +163,69 @@ body{
        left: 77px;
        top: 80px;
    }
-   .btn-blue{
+   /* .btn-blue{
     position: absolute;
     top: 500px;
     left: 140px;
-   }
-   .border-left{
-    position: absolute;
-    top: 280px;
-   }
+   } */
+  
    .h12{
     position: absolute;
     top: 200px;
-    left: 170px;
    }
    .h11{
     position: absolute;
-    left: 80px;
     top: 150px;
    }
    .navvv{
     height: 130px;
    }
+   .navv{
+    display: none;
 }
-@media(max-width: 540px){
-  
 }
-@media(max-width: 550px){
-    .navv{
-        display: none;
-    }
+@media(max-width: 500px){
+  .h11{
+      position: absolute;
+      left: 140px;
+      font-size: 40px;
+  }
+  .h12{
+      position: absolute;
+      left: 140px;
+      top: 270px;
+  }
+  .border-left-head{
+      position: absolute;
+  }
+  .topic1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: none;
+    padding-left: 20px;
+}
+.btn-blue-div{
+    position: absolute;
+    left: 240px;
+    top: 530px;
+}
+.end-img-head{
+    display: block;
+    position: absolute;
+    left: 240px;
+    top: 630px;   
+}
 }
 @media(max-width: 450px){
     .navv{
         display: none;
     }
     .topic{
-        font-size: 20px;
+        font-size: 25px;
     }
     .topic1{
-        font-size: 10px;
+        font-size: 25px;
     }
     .btn-blue{
         width: 80px;
@@ -220,13 +242,20 @@ body{
     } */
 
 }
+@media(max-width: 361px){
+    .img{
+        position: absolute;
+        left: 120px;
+        transform: translateY(-80%);
+    }
+}
 
 @media(max-width: 250px){
     .topic{
-        font-size: 8px;
+        font-size: 25px;
     }
     .topic1{
-        font-size: 4px;
+        font-size: 10px;
     }
     .img{
         position: initial;

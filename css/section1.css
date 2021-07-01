@@ -132,7 +132,7 @@ body {
   left: 512px;
   text-align: center;
   font-size: 40px;
-  color: white;
+  color: black;
 }
 span {
   margin: 5.9px;
@@ -636,6 +636,12 @@ span {
     transform: translateY(1px);
   }
 
+  /* ByMadina */
+@media(max-width: 770px){
+  .jasmin{
+    display: none;
+  }
+}
   @media (max-width: 750px) {
     .section-company-jasmine {
     

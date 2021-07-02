@@ -4,10 +4,9 @@ form.addEventListener("submit", (e) => {
 
 
     let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
     let phone = document.getElementById("phone").value;
     
-    let my_text = `Result is:%0A - Name: ${name} %0A - Email: ${email} %0A - Phone: ${phone} `
+    let my_text = `Result is:%0A - Name: ${name} %0A - Phone: ${phone} `
     let token = "1895639953:AAGRhUS23ZUfkvi0XrSIfiEbIP4pR10qk4Y"
 
     let chat_id = -518098955;

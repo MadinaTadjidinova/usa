@@ -126,6 +126,7 @@
             </div>
             <h1 class="jasmin"></h1>
             <div class="prog">
+              <h1 class="iskender">Программа</h1>
               <span> -Круглогодичные языковые курсы </span>
               <span>-Бакалавриат</span>
               <span>-Магистратура</span>
@@ -237,13 +238,13 @@
             <div class="container content">
               <h3 class="col-sm-12 kamilla">Для получения консультации </h3>
               <p class="class">Заполните форму и получите ответ<br>от наших специалистов</p>
-              <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+              <form id="form" class="contactForm">
                 <div class="posts">
-                  <input name="name" placeholder="Ваше имя" class="name" required="">
-                  <input name="emailaddress" placeholder="Ваш телефон" class="email" type="email" required="">
-                  <input style="color: #fff; 
-                                    border-radius: 12px;
-                                    border: 0px solid #fff;" name="submit" class="btn" type="submit" value="Отправить">
+                  <input type="text" class="name" placeholder="Ваше имя" id="name" class="name">
+                  <input type="number" placeholder="Ваш телефон" id="phone" class="email">
+                  <div class="">
+                    <button type="submit" class="btn" style="color: white;">Отправить</button>
+                </div>
                   <div class="tt">
                     <h6 class="h6-agree">Нажимая на кнопку вы соглашаетесь с условием о передаче данных </h6>
                     <br>
@@ -252,6 +253,29 @@
                 </div>
               </form>
         
+<!-- 
+              <form id="form" class="contactForm posts">
+                <div class="">
+                <div class="">
+                    <input type="text" class="name" placeholder="Ваше имя" id="name" class="name">
+                </div>
+                <div class="">
+                    <input  type="number" placeholder="Ваш телефон" id="phone" class="email">
+                </div>
+                <div class="">
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+                <div class="tt">
+                  <h6 class="h6-agree">Нажимая на кнопку вы соглашаетесь с условием о передаче данных </h6>
+                  <br>
+                  <a class="text" href="">Политика конфиденциальности</a>
+                </div>
+              </div> -->
+
+             
+        </form>
+
+
               <div class="end-div">
                 <div class="icon-line">
                   <div class="icons">
@@ -292,5 +316,7 @@
       <script src="./js/bootstrap.bundle.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+      <script src="./js/script.js"></script>
   </body>
 </html>

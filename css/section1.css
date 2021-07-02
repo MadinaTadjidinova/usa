@@ -66,7 +66,7 @@ body {
   margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
-  padding-left: 19px;
+
 }
 
 .prog:nth-child(3) {
@@ -113,7 +113,7 @@ body {
 .image-2 {
   width: 100px;
   justify-content: flex-end;
-  transform: translateX(200px);
+  transform: translateX(180px);
   margin-top: -160px;
   margin-bottom: 29px;
 }
@@ -133,8 +133,11 @@ body {
   font-size: 40px;
   color: black;
 }
+
 span {
-  margin: 5.9px;
+  
+  
+  font-size: 16px;
 }
 @media (max-width: 1060px) {
   section {
@@ -369,10 +372,18 @@ s .card-img-top-2 {
   bottom: 100px;
   left: 250px;
 }
+.iskender{
+  display: none;
+}
 
 @media (max-width: 750px) {
   .madina{
      font-size:68px;
+  }
+  .iskender{
+    display: block;
+    color:#fcc63d;
+    font-size: 36px;
   }
   .madina2{
     font-size: 60px;
@@ -390,7 +401,8 @@ s .card-img-top-2 {
     color: white;
   }
   .prog span {
-    font-size: 16px;
+    font-size: 15px;
+    padding-bottom:9px ;
   }
   .main-text {
     display: flex;
@@ -687,8 +699,8 @@ body {
 }
 
 span {
-  margin: 5.9px;
-  font-size: 15ox;
+ 
+  font-size: 15px;
 }
 
 @media (max-width: 1200px) {

@@ -10,7 +10,7 @@ body{
 }
 .contact{
     
-    min-height: 100vh;
+    min-height: 87vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,6 +476,24 @@ input:focus, textarea:focus {
     }
 }
 
+@media(max-width: 520px){
+    .kamilla{
+        transform: translateX(-19%);
+        margin-top: 40px;
+        font-size: 21px;
+    }
+    p.class{
+        transform: translateX(-19%);
+        font-size: 9px;
+    }
+    .contactForm{
+        transform: translateX(-19%);
+    }
+    .icons{
+        transform: translateX(-15%);
+        padding-top: 20px;
+    }
+}
 @media(max-width: 500px){
     .kamilla{
         transform: translateX(-20%);
@@ -491,6 +509,25 @@ input:focus, textarea:focus {
     }
     .icons{
         transform: translateX(-16%);
+        padding-top: 20px;
+    }
+    
+}
+@media(max-width: 480px){
+    .kamilla{
+        transform: translateX(-22%);
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    p.class{
+        transform: translateX(-22%);
+        font-size: 8px;
+    }
+    .contactForm{
+        transform: translateX(-22%);
+    }
+    .icons{
+        transform: translateX(-18%);
         padding-top: 20px;
     }
 }
@@ -515,6 +552,24 @@ input:focus, textarea:focus {
         padding-top: 20px;
     }
 }
+@media(max-width: 430px){
+    .kamilla{
+        transform: translateX(-25%);
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    p.class{
+        transform: translateX(-25%);
+        font-size: 8px;
+    }
+    .contactForm{
+        transform: translateX(-25%);
+    }
+    .icons{
+        transform: translateX(-21%);
+        padding-top: 20px;
+    }
+}
 
 @media(max-width: 400px){
     .kamilla{
@@ -532,5 +587,42 @@ input:focus, textarea:focus {
     .icons{
         transform: translateX(-22%);
         padding-top: 20px;
+    }
+}
+@media(max-width: 380px){
+    .kamilla{
+        transform: translateX(-28%);
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    p.class{
+        transform: translateX(-28%);
+        font-size: 8px;
+    }
+    .contactForm{
+        transform: translateX(-28%);
+    }
+    .icons{
+        transform: translateX(-24%);
+        padding-top: 20px;
+    }
+}
+@media(max-width: 340px){
+    .kamilla{
+        transform: translateX(-30%);
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    p.class{
+        transform: translateX(-30%);
+        font-size: 8px;
+    }
+    .contactForm{
+        transform: translateX(-30%);
+    }
+    .icons{
+        transform: translateX(-26%);
+        padding-top: 20px;
+
     }
 }

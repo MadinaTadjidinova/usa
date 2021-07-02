@@ -136,7 +136,7 @@ body {
 span {
   margin: 5.9px;
 }
-@media (max-width: 750px) {
+@media (max-width: 1060px) {
   section {
     height: auto;
     width: 100%;
@@ -148,6 +148,7 @@ span {
   .main {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
   }
   .visa {
     width: 328px;
@@ -438,12 +439,12 @@ s .card-img-top-2 {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1060px) {
   .section-jasmine {
     background-color: #016096;
     width: 90%;
     margin: auto;
-    height: 700px;
+    height: 770px;
     border-radius: 2%;
   }
 
@@ -714,7 +715,7 @@ span {
       display: none;
     }
   }
-  @media (max-width: 750px) {
+  @media (max-width: 950px) {
     .section-company-jasmine {
       height: auto;
       width: 100%;

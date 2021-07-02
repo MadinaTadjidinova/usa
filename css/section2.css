@@ -310,7 +310,7 @@
       @media (max-width: 700px){ 
            .col .p1{ 
                width: 500px; 
-               font-size: 24px; 
+               font-size: 22px; 
            }           
  .add{ 
      width: 350px; 
@@ -370,7 +370,7 @@ height: 0px;
      .add2{ 
          width: 180px; 
      font-weight: 800; 
-     font-size: 14px; 
+     font-size: 12px; 
      text-align: center; 
      }  
      .carousel { 

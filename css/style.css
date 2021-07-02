@@ -201,13 +201,13 @@ body{
 }
 .btn-blue-div{
     position: absolute;
-    left: 240px;
+    left: 265px;
     top: 490px;
 }
 .end-img-head{
     display: block;
     position: absolute;
-    left: 220px;
+    left: 251px;
     top: 580px;   
 }
 .content{
@@ -215,9 +215,10 @@ body{
 }
 }
 @media(max-width: 500px){
+
   .h11{
       position: absolute;
-      left: 140px;
+      left: 133px;
       font-size: 40px;
   }
   .h12{
@@ -237,21 +238,20 @@ body{
 }
 .btn-blue-div{
     position: absolute;
-    left: 230px;
-    top: 530px;
-  
+    left: 240px;
+    top: 482px;
 }
 .btn-blue{
     width: 150px;
     font-size: 15px;
     position: relative;
-    bottom: 30px;
+    bottom: -25px;
 }
 .end-img-head{
     display: block;
     position: absolute;
-    left: 220px;
-    top: 600px; 
+    left: 235px;
+    top: 640px; 
 }
 }
 @media(max-width:470px){
@@ -279,7 +279,12 @@ body{
         display: block;
         position: absolute;
         left: 210px;
-        top: 580px;   
+        top: 653px;   
+    }
+    .btn-blue-div{
+        position: absolute;
+        left: 223px;
+        top: 530px;
     }
 }
 @media(max-width: 450px){

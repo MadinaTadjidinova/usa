@@ -20,6 +20,15 @@ body{
     display: none;
 }
 
+.langu{
+    padding-bottom: 25px;
+}
+
+.ru{
+    background-color: black;
+    border-radius: 50px;
+}
+
 .container .img {
     transform: translateY(-16%);
 }

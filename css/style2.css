@@ -1,5 +1,6 @@
 .langu{
-    padding-bottom: 25px;
+    padding-bottom: 5px;
+    list-style-type: none;
 }
 
 .ru{
@@ -29,4 +30,10 @@
     
     margin-bottom: 90px;
 
+  }
+
+  @media(max-width: 580px){
+    .langu{
+        padding-right: 35px;
+    }
   }

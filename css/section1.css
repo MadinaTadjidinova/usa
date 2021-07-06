@@ -481,10 +481,9 @@ s .card-img-top-2 {
   }
  
   .image1 {
-    margin-left: 40px;
-    width: 290px;
-    padding-right: 10px;
-    transform: translateY(55px);
+    width: 400px;
+    transform: translateX(80%);
+    padding-top: 250px;
   }
   .text-2 {
     font-family: Montserrat;
@@ -518,13 +517,17 @@ s .card-img-top-2 {
   }
 }
 
-@media(max-width: 480px){
-  .madina{
-    font-size:60px;
- }
- .madina2{
-   font-size: 52px;
- }
+@media(max-width: 710px){
+  .image1 {
+    width: 320px;
+    transform: translateX(80%);
+    padding-top: 200px;
+  }
+}
+@media(max-width: 650px){
+  .image1{
+    display: none;
+  }
 }
 @media(max-width: 480px){
   .madina{

@@ -4,9 +4,9 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 .madina{
-  color: #3280B0;
-   font-size:72px;
-    margin-top: -1px
+  color: rgb(50, 128, 176);
+    font-size: 70px;
+    margin-top: -4px;
 }
 .madina2{
   color: #000;
@@ -197,7 +197,7 @@ body {
   margin: 10px;
   padding: 10px;
   color: black;
-  height: 155px;
+  height: 120px;
   width: 400px;
   left: 811px;
   top: 892px;
@@ -206,6 +206,8 @@ body {
   font-weight: 800;
   font-style: Style normal;
   font-size: 20px;
+
+  margin-bottom: 90px;
 }
 .text-1 p {
   color: black;

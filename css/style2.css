@@ -5,3 +5,28 @@
 .ru{
     background-color: black;
 }
+
+.madina{
+    color: #3280B0;
+     font-size:72px;
+      margin-top: -10px
+  }
+
+  .text-1 {
+    border-left: 3px solid #016096;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    height: 110px;
+    width: 400px;
+    left: 811px;
+    top: 892px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: Style normal;
+    font-size: 20px;
+    
+    margin-bottom: 90px;
+
+  }

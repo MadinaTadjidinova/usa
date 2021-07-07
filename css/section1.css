@@ -19,7 +19,7 @@ body {
   background-color: #016096;
   width: 90%;
   margin: auto;
-  height: 380px;
+  height: 420px;
   border-radius: 2%;
 }
 .main {
@@ -63,7 +63,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  margin-top: 60px;
+
   letter-spacing: 0em;
   text-align: left;
 
@@ -87,7 +87,7 @@ body {
 .visa h1 {
   color: #fcc63d;
   font-size: 40px;
-  margin-bottom: -20px;
+  margin-bottom: -5px;
 }
 .visa p {
   font-size: 22px;
@@ -606,7 +606,7 @@ body {
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
-
+margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -623,7 +623,6 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  margin-top: 60px;
   letter-spacing: 0em;
   text-align: left;
   padding-left: 19px;
@@ -652,6 +651,7 @@ body {
   text-align: left;
   padding-left: 20px;
   padding-top: 40px;
+  margin-top: 60px;
 }
 .age p {
   margin: -5px;
@@ -661,7 +661,7 @@ body {
 .visa h1 {
   color: #fcc63d;
   font-size: 40px;
-  margin-bottom: -20px;
+
 }
 .visa p {
   font-size: 22px;
@@ -713,7 +713,7 @@ body {
 
   .visa p {
     transform: translateY(1px);
-    font-weight: 700;
+    font-weight: 600;
   }
   .vissa {
     text-align: start;
@@ -775,7 +775,18 @@ body {
     display: flex;
     justify-content: flex-end;
   }
+  .programtitle{
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    }
+    
 }
 .programtitle{
-
+text-align: center;
+color: white;
+font-size: 64px;
+font-weight: 700;
 }

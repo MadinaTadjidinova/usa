@@ -69,23 +69,23 @@
  .add{ 
      width: 560px; 
      height: 45px; 
-     padding-top: 30px; 
+     padding-top: 11px; 
      font-family: Montserrat; 
      font-style: normal; 
      font-weight: 800; 
-     font-size: 38px; 
+     font-size: 20px; 
      text-align: center; 
      color: #016096; 
      margin: 25px auto;  
  } 
  .add2{ 
-     padding-top: 30px; 
+     padding-top: 11px; 
      width: 560px; 
      height: 45px; 
      font-family: Montserrat; 
      font-style: normal; 
      font-weight: 800; 
-     font-size: 38px; 
+     font-size: 20px; 
      text-align: center; 
      color: #000000; 
      margin:  auto;  
@@ -93,17 +93,17 @@
  .d{  
      margin-left: auto; 
      margin-right: auto; 
-     height: 100px; 
-     width: 900px; 
+     height: 50px; 
+     width: 400px; 
      border-radius: 100%  100% 0 0; 
- box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); 
+     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); 
   
  } 
  .b{ 
      margin-left: auto; 
      margin-right: auto; 
-     height:100px ; 
-     width: 900px; 
+     height:50px ; 
+     width: 400px; 
      border-radius:0%  0% 100% 100%; 
  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); 
  } 
@@ -141,17 +141,17 @@
      height: 90px; 
      }   
  .carousel { 
-     width: 800px; 
+     width: 600px; 
  }  
- .d{  
+ .d{ 
      margin-left: auto; 
      margin-right: auto; 
-     width: 700px; 
+     width: 500px; 
  } 
  .b{  
      margin-left: auto; 
      margin-right: auto; 
-     width: 700px; 
+     width: 500px; 
  }      
  .carousel-control-prev { 
      margin-left: -100px; 
@@ -204,15 +204,15 @@
  } 
        .img1{      width: 400px;  }     
  .carousel { 
-     width: 700px; 
+     width: 500px; 
  }  
  .d{  
-     height: 100px; 
-     width: 600px; 
+     height: 50px; 
+     width: 430px; 
  } 
  .b{ 
-     height:100px ; 
-     width: 600px; 
+     height:50px ; 
+     width: 430px; 
  }  
  .carousel-control-prev { 
      margin-left: -80px; 
@@ -243,12 +243,12 @@
      width: 550px; 
  }  
  .d{  
-     height: 100px; 
-     width: 500px; 
+     height: 50px; 
+     width: 400px; 
  } 
  .b{ 
-     height:100px ; 
-     width: 500px; 
+     height:50px ; 
+     width: 400px; 
  }  
  .carousel-control-prev { 
      margin-left: -60px; 
@@ -269,11 +269,11 @@
      width: 440px; 
  }  
  .d{  
-     height: 100px; 
+     height: 50px; 
      width: 400px; 
  } 
  .b{ 
-     height:100px ; 
+     height:50px ; 
      width: 400px; 
  }  
 .ikkk{ 
@@ -335,7 +335,7 @@
  }  
  
  .carousel { 
-    width: 450px; 
+    width: 420px; 
 } 
  .ikkk{ 
 width: 0px; 
@@ -361,7 +361,7 @@ height: 0px;
      font-size: 30px; 
      line-height: 44px; 
      } 
-  .add{ 
+    .add{ 
          width: 150px; 
      font-weight: 800; 
      font-size: 14px; 
@@ -371,17 +371,17 @@ height: 0px;
          width: 180px; 
      font-weight: 800; 
      font-size: 12px; 
-     text-align: center; 
+     text-align: center;  
      }  
      .carousel { 
          width: 320px; 
      }  
      .d{  
-         height: 60px; 
+         height: 40px; 
          width: 260px; 
      } 
      .b{ 
-         height:60px ; 
+         height:40px ; 
          width: 260px; 
      }  
      .carousel-control-prev { 

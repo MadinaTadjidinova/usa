@@ -37,3 +37,16 @@
         padding-right: 35px;
     }
   }
+  @media(max-width: 450px){
+    .st-2{
+  transform: translateX(-22px);
+    }
+    .st-2-sec-1{
+      font-size: 45px;
+    }
+    .st-2-scc-1-mad2{
+      font-size: 40px;
+      transform: translateY(-7px);
+    }
+  }
+

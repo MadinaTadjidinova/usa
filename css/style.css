@@ -302,6 +302,7 @@ body{
         top: 530px;
     }
 }
+
 @media(max-width: 450px){
     .img-head{
         display: none;
@@ -418,6 +419,7 @@ body{
     } */
 
 }
+
 @media(max-width: 360px){
         .btn-blue{
             width: 130px;

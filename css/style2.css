@@ -50,3 +50,15 @@
     }
   }
 
+
+  @media(max-width: 320px){
+    .langu{
+        padding:0 ;
+    }
+  }
+  @media(max-width: 288px){
+    .ru{
+        width: 10px;
+        font-size: 5px;
+    }
+  }

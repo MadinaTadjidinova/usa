@@ -31,12 +31,30 @@
     margin-bottom: 90px;
 
   }
+  @media(max-width: 400px){
+  .b-b-d{
+   position: absolute;
+   /* top: 480px; */
+   top: 540px;
+   left: 190px; 
+  }
+  }
 
   @media(max-width: 580px){
     .langu{
         padding-right: 35px;
     }
   }
+  @media(max-width:560px){
+    .topic1{
+        font-size: 19px;
+    }
+    .topic{
+    }
+}
+
+ 
+
   @media(max-width: 450px){
     .st-2{
   transform: translateX(-22px);
@@ -49,11 +67,28 @@
       transform: translateY(-7px);
     }
   }
-
+  @media(max-width: 360px){
+    .b-b-d {
+      position: absolute;
+      /* top: 480px; */
+      top: 481px;
+      left: 180px;
+  }
+  }
 
   @media(max-width: 320px){
     .langu{
         padding:0 ;
+    }
+    .b-b-d {
+      position: absolute;
+      /* top: 480px; */
+      top: 481px;
+      left: 150px;
+    }
+    .b-b{
+      width: 95px;
+      height: 47px;
     }
   }
   @media(max-width: 288px){

@@ -419,7 +419,13 @@ body{
     } */
 
 }
-
+@media(max-width: 375px){
+    .btn-blue-div {
+        position: absolute;
+        left: 190px;
+        top: 565px;
+    }
+}
 @media(max-width: 360px){
         .btn-blue{
             width: 130px;
@@ -445,8 +451,8 @@ body{
       }
       .btn-blue-div{
           position: absolute;
-          left: 170px;
-          top: 535px;
+          left: 175px;
+          top: 530px;
       }
       .end-img-head{
           display: block;
@@ -508,6 +514,14 @@ body{
     position: absolute;
     left: -5px;
     top: 80px;
+}
+}
+
+@media (max-width: 320px){
+.btn-blue-div {
+    position: absolute;
+    left: 161px;
+    top: 476px;
 }
 }
 @media(max-width: 300px){
